@@ -19,6 +19,9 @@ i {
     background-repeat: no-repeat;
     background-position: top left;
   }
+  body.confetti {
+    background-image: url(/img/CompletionBackground-clean.png);
+  }
   div#root {
     overflow: hidden;
   }
@@ -458,6 +461,10 @@ button.copyTransactionId:hover {
 span.cmplNmb {
     margin-right: 10px;
 }
+.purchase-not-allowed.wallet-connection {
+    color: white;
+    font-size: 20px;
+}
 /* **** FOOTER **** */
 footer {
     display: flex;
@@ -546,6 +553,7 @@ footer .center a:hover, footer .left a:hover {
     margin: 0 auto;
     height: auto;
     margin-top: calc(100vh - 85vh - 20px);
+    margin-bottom: calc(100vh - 85vh - 20px);
     border-radius: 20px;
     max-width: 530px;
     background: #141928;
@@ -596,6 +604,49 @@ footer .center a:hover, footer .left a:hover {
     color: white;
     font-size: 26px;
 }
+
+     /* popup pages */
+     .boxText p {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    .boxText {
+        color: white;
+        max-height: 60vh;
+        overflow-y: auto;
+        padding-right: 25px;
+        margin-right: 30px;
+    }
+    .box.popupPages {
+        max-width: 80%;
+    }
+    .boxText h2 {
+        margin-bottom: 30px;
+    }
+    
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #245852 #293148;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #293148;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #245852;
+    border-radius: 10px;
+    border: 3px solid #245852;
+  }
 
 /* **** SHOW ON DESKTOP ONLY **** */
 @media (min-width: 1081px) {
