@@ -43,7 +43,7 @@ i {
     color: white;
     font-size: 44px;
     margin-top: 40px;
-}
+    }
 .project-description-text {
     color: white;
     margin-top: 25px;
@@ -192,7 +192,7 @@ span.arrowRightBtn i {
     justify-content: space-between;
     padding: 12px;
     border: 1px solid #434753;
-    border-radius: 12px 12px 0px 0px;
+    border-radius: 12px 12px 12px 12px;
 }
 .disablePointer {
     pointer-events: none;
@@ -730,4 +730,12 @@ footer .center a:hover, footer .left a:hover {
     .leftInputs.NewHolder {
         margin-bottom: 40px;
     }
+}
+.project-title {
+    color: white;
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
 }
