@@ -49,7 +49,7 @@ i {
     margin-top: 25px;
     font-size: 25px;
     line-height: 34px;
-    max-width: 400px;
+    max-width: 490px;
 }
 .wallet-connection {
     border-radius: 20px;
@@ -134,6 +134,7 @@ button.connectWallet:hover {
     min-height: 100px;
     color: white;
     margin-bottom: 50px;
+    display:none;
 }
 .leftPrice, .rightPrice {
     width: 100%;
@@ -171,6 +172,35 @@ span.arrowRightBtn i {
 }
 
 /* **** new purchase inputs **** */
+p.buyP {
+    color: #898c94;
+    margin-top: 40px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+span.fffPrice {
+    color: white;
+}
+/* span.popsColr {
+    color: #a466f2;
+    background: #80F4C4;
+    background: -webkit-linear-gradient(to right, #80F4C4 13%, #4E59FF 50%, #EA6FE6 83%);
+    background: -moz-linear-gradient(to right, #80F4C4 13%, #4E59FF 50%, #EA6FE6 83%);
+    background: linear-gradient(to right, #80F4C4 13%, #4E59FF 50%, #EA6FE6 83%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} */
+ul.buyInfo {
+    color: #898c94;
+    font-size: 18px;
+}
+ul.buyInfo li {
+    margin-bottom: 15px;
+    background: #1f2131;
+    padding: 5px 0px 5px 10px;
+    list-style: none;
+    border-radius: 6px;
+}
 .newInputs {
     display: flex;
     justify-content: space-between;
@@ -298,7 +328,7 @@ span.tokenpr {
     margin-top: 23px;
 }
 .checkBoxr {
-    margin-top: 50px;
+    margin-top: 30px;
     color: #8a8c94;
     font-size: 20px;
 }
