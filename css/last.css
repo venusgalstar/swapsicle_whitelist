@@ -739,3 +739,8 @@ footer .center a:hover, footer .left a:hover {
     text-align: center;
     width: 100%;
 }
+
+
+.input-warning.active {
+    color: #f54242 !important;
+}
