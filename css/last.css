@@ -27,7 +27,7 @@ i {
   }
   #HomeHero {
     display: flex;
-    height: 100vh;
+    min-height: 700px;
     justify-content: center;
     align-items: center;
     max-width: 1200px;
