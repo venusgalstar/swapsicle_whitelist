@@ -55,7 +55,7 @@ i {
     border-radius: 20px;
     max-width: 650px;
     background: #141928;
-    padding: 65px 40px;
+    padding: 55px 40px;
     background-image: radial-gradient(circle at 100% 100%, transparent 18px, #80f4c4 18px, #80f4c4 20px, transparent 20px), linear-gradient(to right, #80f4c4, #5b5bff), radial-gradient(circle at 0% 100%, transparent 18px, #5b5bff 18px, #5b5bff 20px, transparent 20px), linear-gradient(to bottom, #5b5bff, #ed6fe5), radial-gradient(circle at 0% 0%, transparent 18px, #ed6fe5 18px, #ed6fe5 20px, transparent 20px), linear-gradient(to left, #ed6fe5, #516ef8), radial-gradient(circle at 100% 0%, transparent 18px, #516ef8 18px, #516ef8 20px, transparent 20px), linear-gradient(to top, #516ef8, #80f4c4);
     background-size: 20px 20px, calc(100% - 40px) 2px, 20px 20px, 2px calc(100% - 40px);
     background-position: top left,top center,top right,center right, bottom right,bottom center,bottom left,center left;
@@ -113,7 +113,7 @@ button.connectWallet {
     color: white;
     font-size: 20px;
     min-height: 60px;
-    margin-top: 48px;
+    margin-top: 24px;
     border: none;
     background: rgb(127,243,197);
     background: -moz-linear-gradient(90deg, rgba(127,243,197,1) 0%, rgba(85,90,255,1) 52%, rgba(234,111,230,1) 100%);
@@ -178,6 +178,14 @@ p.buyP {
     font-size: 20px;
     margin-bottom: 15px;
 }
+
+p.buyPsmall {
+    color: #898c94;
+    margin-top: 20px;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
 span.fffPrice {
     color: white;
 }
